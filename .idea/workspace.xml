@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b83d441-24a9-45ba-a634-0c92cb6c0026" name="Changes" comment="Létrehozás után">
-      <change afterPath="$PROJECT_DIR$/bukkm2019.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Versenytav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/versenyzo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7b83d441-24a9-45ba-a634-0c92cb6c0026" name="Changes" comment="Létrehozás után első pár feladat">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671475879168</updated>
-      <workItem from="1671475882704" duration="6897000" />
+      <workItem from="1671475882704" duration="7387000" />
     </task>
     <task id="LOCAL-00001" summary="Létrehozás után">
       <created>1671476039632</created>
@@ -73,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671476039632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Létrehozás után első pár feladat">
+      <created>1671483042201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671483042201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +87,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -92,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Létrehozás után" />
-    <option name="LAST_COMMIT_MESSAGE" value="Létrehozás után" />
+    <MESSAGE value="Létrehozás után első pár feladat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Létrehozás után első pár feladat" />
   </component>
 </project>

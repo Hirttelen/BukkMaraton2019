@@ -22,6 +22,12 @@ public class Main {
                 emberek.add(versenyzo);
             }
 
+            System.out.print("4. feladat: ");
+            System.out.print("A versenytávot nem teljesítők: ");
+            double kivont = 691 - emberek.size();
+            double osszesen = kivont / emberek.size();
+            System.out.println(osszesen * 100 + "%");
+
         } catch (IOException e) {
             e.printStackTrace();}
     }
