@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,16 +32,37 @@ public class Main {
             //----------------------------------------------------------------------
 
             System.out.print("5. feladat: ");
-            Integer szamlalo = 0;
+            int szamlalo = 0;
             for (versenyzo i : emberek) {
                 Versenytav t = new Versenytav(i.rajtszam);
                 char utolso = i.kategoria.charAt(i.kategoria.length() - 1);
-                if (utolso == 'n' && t.getTav() == "Rövid") {
+                if (utolso == 'n' && Objects.equals(t.getTav(), "Rövid")) {
                     szamlalo++;
                 }
             }
             System.out.println("A női versenyzők száma rövid távon: " + szamlalo + "fő");
             //------------------------------------------------------------------------------
+
+            System.out.print("6. feladat: ");
+            boolean bool = false;
+            for (versenyzo a:emberek)
+            {
+                String[] sor = a.ido.split(":");
+                int o = Integer.parseInt(sor[0]);
+                if (o >= 6)
+                {
+                    bool = true;
+                }
+            }
+            if (bool)
+            {
+                System.out.println("Volt ilyen versenyző");
+            }
+            else
+            {
+                System.out.println("Nem volt ilyen versenyző");
+            }
+            //-----------------------------------------------------------------------
 
         } catch (IOException e) {
             e.printStackTrace();}

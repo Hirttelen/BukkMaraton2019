@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b83d441-24a9-45ba-a634-0c92cb6c0026" name="Changes" comment="4.feladat">
+    <list default="true" id="7b83d441-24a9-45ba-a634-0c92cb6c0026" name="Changes" comment="5.feladat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Versenytav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Versenytav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671475879168</updated>
-      <workItem from="1671475882704" duration="8045000" />
+      <workItem from="1671475882704" duration="9203000" />
     </task>
     <task id="LOCAL-00001" summary="Létrehozás után">
       <created>1671476039632</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671483755509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5.feladat">
+      <created>1671484409840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671484409840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,7 @@
     <MESSAGE value="Létrehozás után" />
     <MESSAGE value="Létrehozás után első pár feladat" />
     <MESSAGE value="4.feladat" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.feladat" />
+    <MESSAGE value="5.feladat" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.feladat" />
   </component>
 </project>
