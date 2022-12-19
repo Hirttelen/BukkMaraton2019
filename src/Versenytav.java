@@ -17,4 +17,7 @@ public class Versenytav {
                 return "Hibás rajtszám";
         }
     }
+    public Versenytav(String rajtszam) {
+        rajtSzam = rajtszam;
+    }
 }

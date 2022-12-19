@@ -21,12 +21,26 @@ public class Main {
                 versenyzo.ido = sor[4];
                 emberek.add(versenyzo);
             }
+            //-------------------------------------------------------------------
 
             System.out.print("4. feladat: ");
             System.out.print("A versenytávot nem teljesítők: ");
             double kivont = 691 - emberek.size();
             double osszesen = kivont / emberek.size();
             System.out.println(osszesen * 100 + "%");
+            //----------------------------------------------------------------------
+
+            System.out.print("5. feladat: ");
+            Integer szamlalo = 0;
+            for (versenyzo i : emberek) {
+                Versenytav t = new Versenytav(i.rajtszam);
+                char utolso = i.kategoria.charAt(i.kategoria.length() - 1);
+                if (utolso == 'n' && t.getTav() == "Rövid") {
+                    szamlalo++;
+                }
+            }
+            System.out.println("A női versenyzők száma rövid távon: " + szamlalo + "fő");
+            //------------------------------------------------------------------------------
 
         } catch (IOException e) {
             e.printStackTrace();}
