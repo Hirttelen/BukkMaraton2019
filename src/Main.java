@@ -63,6 +63,7 @@ public class Main {
                 System.out.println("Nem volt ilyen versenyző");
             }
             //-----------------------------------------------------------------------
+            System.out.print("7. feladat: ");
 
         } catch (IOException e) {
             e.printStackTrace();}
